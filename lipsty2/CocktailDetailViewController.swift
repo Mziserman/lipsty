@@ -26,7 +26,7 @@ class CocktailDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // affichage de self.title dans la navigation Bar
+
         self.nameLabel.text = cocktail.name
         if let posterPathUrl = NSURL(string: cocktail.bigImage) {
             bigImage.hnk_setImageFromURL(posterPathUrl)
@@ -42,19 +42,7 @@ class CocktailDetailViewController: UIViewController {
         story.numberOfLines = 0
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        
-//        let cocktailDetailViewController = segue.destinationViewController as! CocktailDetailViewController
-//        
-//        if let selectedIndexPath = cocktailsTableView.indexPathForSelectedRow {
-//            let cocktail = cocktails[selectedIndexPath.row]
-//            
-//            cocktailDetailViewController.cocktail = cocktail
-//            
-//            cocktailsTableView.deselectRowAtIndexPath(selectedIndexPath, animated: true)
-//        }
-        
-    }
+   
     
     func printIngredients(ingredients: [String]) {
         
@@ -106,15 +94,7 @@ class CocktailDetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+   
     
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
     
 }

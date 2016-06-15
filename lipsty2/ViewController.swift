@@ -38,9 +38,6 @@ class ViewController: UIViewController {
     //MARK: Buttons actions
     var answers = [String: String]()
 
-    @IBAction func startAction(sender: AnyObject) {
-    }
-
     //MARK: Sex
     @IBAction func maleAction(sender: AnyObject) {
         self.setAnswer("male", key: "sex")
