@@ -9,6 +9,5 @@ target 'lipsty2' do
   pod 'Alamofire', '~> 3.1'
   pod 'SwiftyJSON', '~> 2.3'
   pod 'HanekeSwift', '~> 0.10'
-  pod 'YouTubePlayer'
-
+  
 end
