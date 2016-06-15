@@ -12,7 +12,7 @@ import UIKit
 class CocktailDetailViewController: UIViewController {
     
     var cocktail: Cocktail!
-
+    
     @IBOutlet weak var nameLabel: UILabel!
     
     @IBOutlet weak var star1: UIImageView!
@@ -26,7 +26,7 @@ class CocktailDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
+        
         self.nameLabel.text = cocktail.name
         if let posterPathUrl = NSURL(string: cocktail.bigImage) {
             bigImage.hnk_setImageFromURL(posterPathUrl)
@@ -42,7 +42,7 @@ class CocktailDetailViewController: UIViewController {
         story.numberOfLines = 0
     }
     
-   
+    
     
     func printIngredients(ingredients: [String]) {
         
@@ -59,7 +59,7 @@ class CocktailDetailViewController: UIViewController {
             label.numberOfLines = 0
             
             self.view.addSubview(label)
-        
+            
         }
         
     }
@@ -94,7 +94,7 @@ class CocktailDetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-   
+    
     
     
 }
