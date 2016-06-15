@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (3.4.0)
+  - HanekeSwift (0.10.1)
+  - SwiftyJSON (2.3.2)
+  - YouTubePlayer (0.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.1)
+  - HanekeSwift (~> 0.10)
+  - SwiftyJSON (~> 2.3)
+  - YouTubePlayer
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  HanekeSwift: 08e47d3d0f2899ec58e5d257beba0de619aca9e8
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  YouTubePlayer: 88713a96c356f2c88da8925eb61438eda88bcd57
+
+PODFILE CHECKSUM: 1bb247ed76c18d7c8c55bccc3a5d63dc079837f1
+
+COCOAPODS: 1.0.1

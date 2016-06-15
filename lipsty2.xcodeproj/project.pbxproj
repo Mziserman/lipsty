@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B090A951D0F0BC6007AA290 /* UrlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B090A941D0F0BC6007AA290 /* UrlBuilder.swift */; };
+		5B090A971D0F0E36007AA290 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B090A961D0F0E36007AA290 /* Cocktail.swift */; };
+		5B090A991D0F0E7F007AA290 /* CocktailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B090A981D0F0E7F007AA290 /* CocktailManager.swift */; };
+		5B090A9D1D0F1109007AA290 /* CocktailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B090A9C1D0F1109007AA290 /* CocktailTableViewCell.swift */; };
+		5B090A9F1D0F1592007AA290 /* AllCocktailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B090A9E1D0F1592007AA290 /* AllCocktailsController.swift */; };
 		5B4F527B1D0CBDA600A8EBC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F527A1D0CBDA600A8EBC0 /* AppDelegate.swift */; };
 		5B4F527D1D0CBDA600A8EBC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F527C1D0CBDA600A8EBC0 /* ViewController.swift */; };
 		5B4F52801D0CBDA600A8EBC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4F527E1D0CBDA600A8EBC0 /* Main.storyboard */; };
 		5B4F52831D0CBDA600A8EBC0 /* lipsty2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F52811D0CBDA600A8EBC0 /* lipsty2.xcdatamodeld */; };
 		5B4F52851D0CBDA600A8EBC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4F52841D0CBDA600A8EBC0 /* Assets.xcassets */; };
 		5B4F52881D0CBDA600A8EBC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4F52861D0CBDA600A8EBC0 /* LaunchScreen.storyboard */; };
+		5BB45F2A1D0F53D900C67E70 /* CocktailDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB45F291D0F53D900C67E70 /* CocktailDetailViewController.swift */; };
+		5BB45F2F1D108BEF00C67E70 /* Graphics.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB45F2B1D108BEF00C67E70 /* Graphics.ttf */; };
+		5BB45F301D108BEF00C67E70 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB45F2C1D108BEF00C67E70 /* Lato-Bold.ttf */; };
+		5BB45F311D108BEF00C67E70 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB45F2D1D108BEF00C67E70 /* Lato-BoldItalic.ttf */; };
+		5BB45F321D108BEF00C67E70 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB45F2E1D108BEF00C67E70 /* Lato-Regular.ttf */; };
+		5BB45F5B1D10BACC00C67E70 /* ColorPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB45F5A1D10BACC00C67E70 /* ColorPageViewController.swift */; };
+		A37530249CE7C793694E7DFA /* Pods_lipsty2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863AD2E605084A87CD9A2434 /* Pods_lipsty2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01E30CBFC0B76DEF30D6211D /* Pods-lipsty2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lipsty2.release.xcconfig"; path = "Pods/Target Support Files/Pods-lipsty2/Pods-lipsty2.release.xcconfig"; sourceTree = "<group>"; };
+		5B090A941D0F0BC6007AA290 /* UrlBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlBuilder.swift; sourceTree = "<group>"; };
+		5B090A961D0F0E36007AA290 /* Cocktail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
+		5B090A981D0F0E7F007AA290 /* CocktailManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocktailManager.swift; sourceTree = "<group>"; };
+		5B090A9C1D0F1109007AA290 /* CocktailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocktailTableViewCell.swift; sourceTree = "<group>"; };
+		5B090A9E1D0F1592007AA290 /* AllCocktailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCocktailsController.swift; sourceTree = "<group>"; };
 		5B4F52771D0CBDA600A8EBC0 /* lipsty2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lipsty2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4F527A1D0CBDA600A8EBC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B4F527C1D0CBDA600A8EBC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +42,14 @@
 		5B4F52841D0CBDA600A8EBC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B4F52871D0CBDA600A8EBC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B4F52891D0CBDA600A8EBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB45F291D0F53D900C67E70 /* CocktailDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocktailDetailViewController.swift; sourceTree = "<group>"; };
+		5BB45F2B1D108BEF00C67E70 /* Graphics.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Graphics.ttf; path = ../../../../Downloads/Lipsty_rendu/font/Graphics.ttf; sourceTree = "<group>"; };
+		5BB45F2C1D108BEF00C67E70 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "../../../../Downloads/Lipsty_rendu/font/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		5BB45F2D1D108BEF00C67E70 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-BoldItalic.ttf"; path = "../../../../Downloads/Lipsty_rendu/font/Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5BB45F2E1D108BEF00C67E70 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "../../../../Downloads/Lipsty_rendu/font/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		5BB45F5A1D10BACC00C67E70 /* ColorPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPageViewController.swift; sourceTree = "<group>"; };
+		863AD2E605084A87CD9A2434 /* Pods_lipsty2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lipsty2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9204DB71FD2589BB01EBABC /* Pods-lipsty2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lipsty2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lipsty2/Pods-lipsty2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A37530249CE7C793694E7DFA /* Pods_lipsty2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B090A8F1D0F0A97007AA290 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5B4F527A1D0CBDA600A8EBC0 /* AppDelegate.swift */,
+				5B090A931D0F0AC0007AA290 /* ViewControllers */,
+				5B090A921D0F0AB2007AA290 /* Network */,
+				5B090A911D0F0AA9007AA290 /* Model */,
+				5B090A901D0F0A9F007AA290 /* Cells */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		5B090A901D0F0A9F007AA290 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5B090A9C1D0F1109007AA290 /* CocktailTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		5B090A911D0F0AA9007AA290 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B090A961D0F0E36007AA290 /* Cocktail.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5B090A921D0F0AB2007AA290 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5B090A981D0F0E7F007AA290 /* CocktailManager.swift */,
+				5B090A941D0F0BC6007AA290 /* UrlBuilder.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		5B090A931D0F0AC0007AA290 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B4F527C1D0CBDA600A8EBC0 /* ViewController.swift */,
+				5B090A9E1D0F1592007AA290 /* AllCocktailsController.swift */,
+				5BB45F291D0F53D900C67E70 /* CocktailDetailViewController.swift */,
+				5BB45F5A1D10BACC00C67E70 /* ColorPageViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		5B4F526E1D0CBDA600A8EBC0 = {
 			isa = PBXGroup;
 			children = (
 				5B4F52791D0CBDA600A8EBC0 /* lipsty2 */,
 				5B4F52781D0CBDA600A8EBC0 /* Products */,
+				7FD1FD231CAA64C55C245762 /* Pods */,
+				78C96842415686CAD0A46C18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +133,43 @@
 		5B4F52791D0CBDA600A8EBC0 /* lipsty2 */ = {
 			isa = PBXGroup;
 			children = (
-				5B4F527A1D0CBDA600A8EBC0 /* AppDelegate.swift */,
-				5B4F527C1D0CBDA600A8EBC0 /* ViewController.swift */,
+				5B090A8F1D0F0A97007AA290 /* Classes */,
 				5B4F527E1D0CBDA600A8EBC0 /* Main.storyboard */,
 				5B4F52841D0CBDA600A8EBC0 /* Assets.xcassets */,
+				5BB45F331D108BFF00C67E70 /* fonts */,
 				5B4F52861D0CBDA600A8EBC0 /* LaunchScreen.storyboard */,
 				5B4F52891D0CBDA600A8EBC0 /* Info.plist */,
 				5B4F52811D0CBDA600A8EBC0 /* lipsty2.xcdatamodeld */,
 			);
 			path = lipsty2;
+			sourceTree = "<group>";
+		};
+		5BB45F331D108BFF00C67E70 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5BB45F2B1D108BEF00C67E70 /* Graphics.ttf */,
+				5BB45F2C1D108BEF00C67E70 /* Lato-Bold.ttf */,
+				5BB45F2D1D108BEF00C67E70 /* Lato-BoldItalic.ttf */,
+				5BB45F2E1D108BEF00C67E70 /* Lato-Regular.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		78C96842415686CAD0A46C18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				863AD2E605084A87CD9A2434 /* Pods_lipsty2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FD1FD231CAA64C55C245762 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9204DB71FD2589BB01EBABC /* Pods-lipsty2.debug.xcconfig */,
+				01E30CBFC0B76DEF30D6211D /* Pods-lipsty2.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B4F528C1D0CBDA600A8EBC0 /* Build configuration list for PBXNativeTarget "lipsty2" */;
 			buildPhases = (
+				DA2022E159C9202CF35968F6 /* [CP] Check Pods Manifest.lock */,
 				5B4F52731D0CBDA600A8EBC0 /* Sources */,
 				5B4F52741D0CBDA600A8EBC0 /* Frameworks */,
 				5B4F52751D0CBDA600A8EBC0 /* Resources */,
+				A456763C39EB7DAA44563649 /* [CP] Embed Pods Frameworks */,
+				89C680598A43753DC9B84E4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4F52881D0CBDA600A8EBC0 /* LaunchScreen.storyboard in Resources */,
+				5BB45F301D108BEF00C67E70 /* Lato-Bold.ttf in Resources */,
+				5BB45F2F1D108BEF00C67E70 /* Graphics.ttf in Resources */,
+				5BB45F311D108BEF00C67E70 /* Lato-BoldItalic.ttf in Resources */,
+				5BB45F321D108BEF00C67E70 /* Lato-Regular.ttf in Resources */,
 				5B4F52851D0CBDA600A8EBC0 /* Assets.xcassets in Resources */,
 				5B4F52801D0CBDA600A8EBC0 /* Main.storyboard in Resources */,
 			);
@@ -134,14 +246,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		89C680598A43753DC9B84E4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lipsty2/Pods-lipsty2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A456763C39EB7DAA44563649 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lipsty2/Pods-lipsty2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA2022E159C9202CF35968F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B4F52731D0CBDA600A8EBC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B090A951D0F0BC6007AA290 /* UrlBuilder.swift in Sources */,
+				5B090A991D0F0E7F007AA290 /* CocktailManager.swift in Sources */,
+				5B090A9F1D0F1592007AA290 /* AllCocktailsController.swift in Sources */,
 				5B4F52831D0CBDA600A8EBC0 /* lipsty2.xcdatamodeld in Sources */,
 				5B4F527D1D0CBDA600A8EBC0 /* ViewController.swift in Sources */,
+				5B090A9D1D0F1109007AA290 /* CocktailTableViewCell.swift in Sources */,
+				5BB45F2A1D0F53D900C67E70 /* CocktailDetailViewController.swift in Sources */,
+				5BB45F5B1D10BACC00C67E70 /* ColorPageViewController.swift in Sources */,
 				5B4F527B1D0CBDA600A8EBC0 /* AppDelegate.swift in Sources */,
+				5B090A971D0F0E36007AA290 /* Cocktail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +421,7 @@
 		};
 		5B4F528D1D0CBDA600A8EBC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9204DB71FD2589BB01EBABC /* Pods-lipsty2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = lipsty2/Info.plist;
@@ -265,6 +433,7 @@
 		};
 		5B4F528E1D0CBDA600A8EBC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E30CBFC0B76DEF30D6211D /* Pods-lipsty2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = lipsty2/Info.plist;
@@ -293,6 +462,7 @@
 				5B4F528E1D0CBDA600A8EBC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
