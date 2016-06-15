@@ -12,7 +12,7 @@ import YouTubePlayer
 class CocktailDetailViewController: UIViewController {
     
     var cocktail: Cocktail!
-    
+
     @IBOutlet weak var nameLabel: UILabel!
     
     @IBOutlet weak var star1: UIImageView!
@@ -22,14 +22,6 @@ class CocktailDetailViewController: UIViewController {
     @IBOutlet weak var bigImage: UIImageView!
     
     @IBOutlet weak var story: UILabel!
-    
-    @IBAction func loadVideo(sender: AnyObject) {
-        var videoPlayer = YouTubePlayerView(frame: view.frame)
-        videoPlayer.loadVideoID(cocktail.video)
-
-        
-//        presentViewController(nextViewController, animated: true, completion: nil)
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

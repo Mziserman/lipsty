@@ -1346,34 +1346,17 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video recipe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwr-Yc-h6B">
-                                <rect key="frame" x="252" y="470" width="96" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.8666666666666667" green="0.0" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipk-fv-ADg">
-                                <rect key="frame" x="164" y="453" width="273" height="55"/>
-                                <state key="normal" backgroundImage="button2"/>
-                                <connections>
-                                    <action selector="loadVideo:" destination="vf9-CG-3v4" eventType="touchUpInside" id="Vwc-t1-v33"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="NgO-Y6-e78" firstAttribute="leading" secondItem="aAI-Jt-lKQ" secondAttribute="leadingMargin" id="5mS-9K-xbF"/>
                             <constraint firstItem="NgO-Y6-e78" firstAttribute="trailing" secondItem="aAI-Jt-lKQ" secondAttribute="trailingMargin" id="619-Xc-SAa"/>
-                            <constraint firstItem="dwr-Yc-h6B" firstAttribute="centerX" secondItem="ipk-fv-ADg" secondAttribute="centerX" id="CGz-95-jro"/>
                             <constraint firstItem="6BC-qI-Ebn" firstAttribute="centerX" secondItem="aAI-Jt-lKQ" secondAttribute="centerX" id="ESZ-hl-4lh"/>
                             <constraint firstItem="NgO-Y6-e78" firstAttribute="top" secondItem="cV3-Tn-qRZ" secondAttribute="bottom" constant="374" id="JGj-J4-NoK"/>
                             <constraint firstItem="6BC-qI-Ebn" firstAttribute="top" secondItem="cV3-Tn-qRZ" secondAttribute="bottom" constant="25" id="MVr-J5-hGC"/>
                             <constraint firstItem="cgX-qd-B5E" firstAttribute="top" secondItem="cV3-Tn-qRZ" secondAttribute="bottom" constant="96" id="cvO-aM-3ae"/>
-                            <constraint firstItem="dwr-Yc-h6B" firstAttribute="centerY" secondItem="ipk-fv-ADg" secondAttribute="centerY" id="j3i-ov-5Yt"/>
                             <constraint firstItem="WIr-cf-kV8" firstAttribute="centerX" secondItem="aAI-Jt-lKQ" secondAttribute="centerX" id="lRE-Ml-ECh"/>
                             <constraint firstItem="WIr-cf-kV8" firstAttribute="top" secondItem="6BC-qI-Ebn" secondAttribute="bottom" constant="8" id="lcc-um-Hjo"/>
-                            <constraint firstItem="zkN-Lo-xfj" firstAttribute="top" secondItem="ipk-fv-ADg" secondAttribute="bottom" constant="28" id="o48-ft-cxH"/>
-                            <constraint firstItem="ipk-fv-ADg" firstAttribute="centerX" secondItem="aAI-Jt-lKQ" secondAttribute="centerX" id="qHD-wx-k43"/>
                             <constraint firstItem="cgX-qd-B5E" firstAttribute="leading" secondItem="aAI-Jt-lKQ" secondAttribute="leadingMargin" id="rrm-sy-zo2"/>
                         </constraints>
                     </view>

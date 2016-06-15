@@ -45,9 +45,9 @@ extension Cocktail {
         self.listImage = "http://assets.absolutdrinks.com/drinks/100x140/\(self.id).jpg";
         self.bigImage = "http://assets.absolutdrinks.com/drinks/transparent-background-white/200x270/\(self.id).png"
         
-        for index in 0 ... json["video"].arrayValue.count {
-            if json["video"][index]["type"].stringValue == "youtube" {
-                self.video = json["video"][index]["video"].stringValue
+        for index in 0 ... json["videos"].arrayValue.count {
+            if json["videos"][index]["type"].stringValue == "youtube" {
+                self.video = json["videos"][index]["video"].stringValue
             }
         }
     }

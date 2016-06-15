@@ -133,7 +133,6 @@ class ViewController: UIViewController {
         
         if var answers = defaults.dictionaryForKey("userResponses") {
             answers[key] = answer
-            print(answers)
             defaults.setValue(answers, forKey: "userResponses")
             defaults.synchronize()
         } else {
